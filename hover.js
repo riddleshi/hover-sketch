@@ -29,7 +29,7 @@ function createGrid(gridSize) {
 }
 createGrid(16)
 
-const btn = document.getElementById('btn'); // Make sure your button has id="btn"
+const btn = document.getElementById('btn'); 
 btn.addEventListener('click', () => {
   let newsize = prompt("Enter a new grid size (1-100) (default is 16):");
   newsize = parseInt(newsize);
